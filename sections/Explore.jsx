@@ -1,14 +1,13 @@
 'use client';
 
-import { useState } from "react";
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { staggerContainer } from "../utils/motion";
-import { ExploreCard, TitleText, TypingText } from "../components";
+import { staggerContainer } from '../utils/motion';
+import { ExploreCard, TitleText, TypingText } from '../components';
 import { exploreWorlds } from '../constants';
 
 const Explore = () => {
-
   const [active, setActive] = useState('world-2');
 
   return (
@@ -39,7 +38,7 @@ const Explore = () => {
         </div>
       </motion.dv>
     </section>
-  )
+  );
 };
 
 export default Explore;
